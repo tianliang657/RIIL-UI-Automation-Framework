@@ -1,0 +1,1352 @@
+2019-01-17 15:17:33,761 [INFO]: #  Testsuite imported from Excel:
+[
+    {
+        "id": "HOME_001",
+        "title": "打开Relax",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "Relax登录链接",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "Relax登录链接",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "登录页面",
+                "element": "登录界面信息",
+                "data": "*办事大厅",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "登录界面信息",
+                "_data": "*办事大厅",
+                "vdata": "*办事大厅",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "SNIPPET_001",
+        "title": "打开Relax<keywords>",
+        "condition": "SNIPPET",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "输入",
+                "page": "",
+                "element": "登录名称",
+                "data": "<username>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "登录名称",
+                "_data": "<username>",
+                "vdata": "<username>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "",
+                "element": "登录密码",
+                "data": "<password>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "登录密码",
+                "_data": "<password>",
+                "vdata": "<password>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "登录按钮",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "登录按钮",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "SNIPPET_002",
+        "title": "退出登录",
+        "condition": "SNIPPET",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "退出登录",
+                "element": "管理员",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "管理员",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "class#logoutBtn",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "class#logoutBtn",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "LOGIN_001",
+        "title": "打开Relax正确登录",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_001",
+                "data": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_001",
+                "_data": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "vdata": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "Relax主页",
+                "element": "工作台Tab",
+                "data": "*作台",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "工作台Tab",
+                "_data": "*作台",
+                "vdata": "*作台",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_002",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_002",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "LOGIN_002",
+        "title": "打开Relax密码为空",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_001",
+                "data": "username=admin,password=,keywords=密码为空",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_001",
+                "_data": "username=admin,password=,keywords=密码为空",
+                "vdata": "username=admin,password=,keywords=密码为空",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "主页错误提示",
+                "data": "请输入密码!",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "主页错误提示",
+                "_data": "请输入密码!",
+                "vdata": "请输入密码!",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2019-01-17 15:17:33,762 [INFO]: #  From Excel import testsuite success
+2019-01-17 15:17:36,915 [INFO]: #  Run the testcase: HOME_001|打开Relax Skipped, because the flag=N or the condition=snippet
+2019-01-17 15:17:36,916 [INFO]: #  Run the testcase: SNIPPET_001|打开Relax<keywords> Skipped, because the flag=N or the condition=snippet
+2019-01-17 15:17:36,916 [INFO]: #  Run the testcase: SNIPPET_002|退出登录 Skipped, because the flag=N or the condition=snippet
+2019-01-17 15:17:36,916 [INFO]: #  Start running the SETUP testcase...
+2019-01-17 15:17:36,916 [INFO]: #  Run the TestCase: HOME_001|打开Relax
+2019-01-17 15:17:36,917 [INFO]: #  Run the Step: 1|OPEN|Relax登录链接
+2019-01-17 15:17:40,791 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接 is Pass
+2019-01-17 15:17:40,995 [INFO]: #  Run the Step: 2|CHECK|登录界面信息
+2019-01-17 15:17:41,603 [INFO]: #  DATA:'*办事大厅'
+2019-01-17 15:17:41,604 [INFO]: #  REAL:'网上办事大厅'
+2019-01-17 15:17:41,605 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息 is Pass
+2019-01-17 15:17:41,806 [INFO]: #  Run the TestCase: LOGIN_001|打开Relax正确登录
+2019-01-17 15:17:41,806 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001
+2019-01-17 15:17:41,807 [INFO]: #  Run the TestCase: SNIPPET_001|打开Relax<keywords>
+2019-01-17 15:17:41,808 [INFO]: #  Run the Step: 1|INPUT|登录名称
+2019-01-17 15:17:42,475 [INFO]: #  Run the Step: 1|INPUT|登录页面-登录名称 is Pass
+2019-01-17 15:17:42,679 [INFO]: #  Run the Step: 2|INPUT|登录密码
+2019-01-17 15:17:43,316 [INFO]: #  Run the Step: 2|INPUT|登录页面-登录密码 is Pass
+2019-01-17 15:17:43,517 [INFO]: #  Run the Step: 3|CLICK|登录按钮
+2019-01-17 15:17:44,138 [INFO]: #  Run the Step: 3|CLICK|登录页面-登录按钮 is Pass
+2019-01-17 15:17:44,339 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001 is Pass
+2019-01-17 15:17:44,540 [INFO]: #  Run the Step: 2|CHECK|工作台Tab
+2019-01-17 15:17:46,195 [INFO]: #  DATA:'*作台'
+2019-01-17 15:17:46,195 [INFO]: #  REAL:'工作台'
+2019-01-17 15:17:46,195 [INFO]: #  Run the Step: 2|CHECK|Relax主页-工作台Tab is Pass
+2019-01-17 15:17:46,400 [INFO]: #  Run the Step: 3|EXECUTE|SNIPPET_002
+2019-01-17 15:17:46,401 [INFO]: #  Run the TestCase: SNIPPET_002|退出登录
+2019-01-17 15:17:46,402 [INFO]: #  Run the Step: 1|CLICK|管理员
+2019-01-17 15:17:47,075 [INFO]: #  Run the Step: 1|CLICK|退出登录-管理员 is Pass
+2019-01-17 15:17:47,285 [INFO]: #  Run the Step: 2|CLICK|class#logoutBtn
+2019-01-17 15:17:48,762 [INFO]: #  Run the Step: 2|CLICK|通用-class#logoutBtn is Pass
+2019-01-17 15:17:48,966 [INFO]: #  Run the Step: 3|EXECUTE|SNIPPET_002 is Pass
+2019-01-17 15:17:49,168 [INFO]: #  Start running the SETUP testcase...
+2019-01-17 15:17:49,168 [INFO]: #  Run the TestCase: HOME_001|打开Relax
+2019-01-17 15:17:49,169 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接
+2019-01-17 15:17:49,169 [WARNING]: #  Page:通用 element:通用-Relax登录链接 is not exist
+2019-01-17 15:17:50,204 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接 is Pass
+2019-01-17 15:17:50,407 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息
+2019-01-17 15:17:50,407 [WARNING]: #  Page:登录页面 element:登录页面-登录界面信息 is not exist
+2019-01-17 15:17:51,480 [INFO]: #  DATA:'*办事大厅'
+2019-01-17 15:17:51,480 [INFO]: #  REAL:'网上办事大厅'
+2019-01-17 15:17:51,481 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息 is Pass
+2019-01-17 15:17:51,681 [INFO]: #  Run the TestCase: LOGIN_002|打开Relax密码为空
+2019-01-17 15:17:51,682 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001
+2019-01-17 15:17:51,683 [INFO]: #  Run the TestCase: SNIPPET_001|打开Relax<keywords>
+2019-01-17 15:17:51,683 [INFO]: #  Run the Step: 1|INPUT|登录名称
+2019-01-17 15:17:52,290 [INFO]: #  Run the Step: 1|INPUT|登录页面-登录名称 is Pass
+2019-01-17 15:17:52,494 [INFO]: #  Run the Step: 2|INPUT|登录密码
+2019-01-17 15:17:53,095 [INFO]: #  Run the Step: 2|INPUT|登录页面-登录密码 is Pass
+2019-01-17 15:17:53,302 [INFO]: #  Run the Step: 3|CLICK|登录按钮
+2019-01-17 15:17:53,915 [INFO]: #  Run the Step: 3|CLICK|登录页面-登录按钮 is Pass
+2019-01-17 15:17:54,120 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001 is Pass
+2019-01-17 15:17:54,325 [INFO]: #  Run the Step: 2|CHECK|主页错误提示
+2019-01-17 15:17:54,370 [INFO]: #  DATA:'请输入密码!'
+2019-01-17 15:17:54,371 [INFO]: #  REAL:'请输入密码!'
+2019-01-17 15:17:54,371 [INFO]: #  Run the Step: 2|CHECK|登录页面-主页错误提示 is Pass
+2019-01-17 15:17:54,744 [INFO]: #  --- Close th Windows: 'CDwindow-0973FD08B5EB0D407775909A7081B8DF'
+2019-01-17 15:17:54,831 [INFO]: #  --- Quit th Driver: Chrome
+2019-01-17 15:50:54,661 [INFO]: #  Testsuite imported from Excel:
+[
+    {
+        "id": "HOME_001",
+        "title": "打开Relax",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "Relax登录链接",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "Relax登录链接",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "登录页面",
+                "element": "登录界面信息",
+                "data": "*办事大厅",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "登录界面信息",
+                "_data": "*办事大厅",
+                "vdata": "*办事大厅",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "SNIPPET_001",
+        "title": "打开Relax<keywords>",
+        "condition": "SNIPPET",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "输入",
+                "page": "",
+                "element": "登录名称",
+                "data": "<username>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "登录名称",
+                "_data": "<username>",
+                "vdata": "<username>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "",
+                "element": "登录密码",
+                "data": "<password>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "登录密码",
+                "_data": "<password>",
+                "vdata": "<password>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "登录按钮",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "登录按钮",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "SNIPPET_002",
+        "title": "退出登录",
+        "condition": "SNIPPET",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "退出登录",
+                "element": "管理员",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "管理员",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "class#logoutBtn",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "class#logoutBtn",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "LOGIN_001",
+        "title": "打开Relax正确登录",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_001",
+                "data": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_001",
+                "_data": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "vdata": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "Relax主页",
+                "element": "工作台Tab",
+                "data": "*作台",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "工作台Tab",
+                "_data": "*作台",
+                "vdata": "*作台",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_002",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_002",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "LOGIN_002",
+        "title": "打开Relax密码为空",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_001",
+                "data": "username=admin,password=,keywords=密码为空",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_001",
+                "_data": "username=admin,password=,keywords=密码为空",
+                "vdata": "username=admin,password=,keywords=密码为空",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "主页错误提示",
+                "data": "请输入密码!",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "主页错误提示",
+                "_data": "请输入密码!",
+                "vdata": "请输入密码!",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2019-01-17 15:50:54,663 [INFO]: #  From Excel import testsuite success
+2019-01-17 15:50:57,313 [INFO]: #  Run the testcase: HOME_001|打开Relax Skipped, because the flag=N or the condition=snippet
+2019-01-17 15:50:57,313 [INFO]: #  Run the testcase: SNIPPET_001|打开Relax<keywords> Skipped, because the flag=N or the condition=snippet
+2019-01-17 15:50:57,313 [INFO]: #  Run the testcase: SNIPPET_002|退出登录 Skipped, because the flag=N or the condition=snippet
+2019-01-17 15:50:57,314 [INFO]: #  Start running the SETUP testcase...
+2019-01-17 15:50:57,314 [INFO]: #  Run the TestCase: HOME_001|打开Relax
+2019-01-17 15:50:57,315 [INFO]: #  Run the Step: 1|OPEN|Relax登录链接
+2019-01-17 15:50:59,094 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接 is Pass
+2019-01-17 15:50:59,295 [INFO]: #  Run the Step: 2|CHECK|登录界面信息
+2019-01-17 15:51:00,584 [INFO]: #  DATA:'*办事大厅'
+2019-01-17 15:51:00,586 [INFO]: #  REAL:'网上办事大厅'
+2019-01-17 15:51:00,586 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息 is Pass
+2019-01-17 15:51:00,788 [INFO]: #  Run the TestCase: LOGIN_001|打开Relax正确登录
+2019-01-17 15:51:00,788 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001
+2019-01-17 15:51:00,789 [INFO]: #  Run the TestCase: SNIPPET_001|打开Relax<keywords>
+2019-01-17 15:51:00,789 [INFO]: #  Run the Step: 1|INPUT|登录名称
+2019-01-17 15:51:01,469 [INFO]: #  Run the Step: 1|INPUT|登录页面-登录名称 is Pass
+2019-01-17 15:51:01,674 [INFO]: #  Run the Step: 2|INPUT|登录密码
+2019-01-17 15:51:02,321 [INFO]: #  Run the Step: 2|INPUT|登录页面-登录密码 is Pass
+2019-01-17 15:51:02,522 [INFO]: #  Run the Step: 3|CLICK|登录按钮
+2019-01-17 15:51:03,154 [INFO]: #  Run the Step: 3|CLICK|登录页面-登录按钮 is Pass
+2019-01-17 15:51:03,355 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001 is Pass
+2019-01-17 15:51:03,560 [INFO]: #  Run the Step: 2|CHECK|工作台Tab
+2019-01-17 15:51:03,608 [INFO]: #  DATA:'*作台'
+2019-01-17 15:51:03,608 [INFO]: #  REAL:'工作台'
+2019-01-17 15:51:03,609 [INFO]: #  Run the Step: 2|CHECK|Relax主页-工作台Tab is Pass
+2019-01-17 15:51:03,809 [INFO]: #  Run the Step: 3|EXECUTE|SNIPPET_002
+2019-01-17 15:51:03,809 [INFO]: #  Run the TestCase: SNIPPET_002|退出登录
+2019-01-17 15:51:03,810 [INFO]: #  Run the Step: 1|CLICK|管理员
+2019-01-17 15:51:04,502 [INFO]: #  Run the Step: 1|CLICK|退出登录-管理员 is Pass
+2019-01-17 15:51:04,705 [INFO]: #  Run the Step: 2|CLICK|class#logoutBtn
+2019-01-17 15:51:05,322 [INFO]: #  Run the Step: 2|CLICK|通用-class#logoutBtn is Pass
+2019-01-17 15:51:05,527 [INFO]: #  Run the Step: 3|EXECUTE|SNIPPET_002 is Pass
+2019-01-17 15:51:05,732 [INFO]: #  Start running the SETUP testcase...
+2019-01-17 15:51:05,732 [INFO]: #  Run the TestCase: HOME_001|打开Relax
+2019-01-17 15:51:05,733 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接
+2019-01-17 15:51:05,733 [WARNING]: #  Page:通用 element:通用-Relax登录链接 is not exist
+2019-01-17 15:51:06,967 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接 is Pass
+2019-01-17 15:51:07,172 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息
+2019-01-17 15:51:07,173 [WARNING]: #  Page:登录页面 element:登录页面-登录界面信息 is not exist
+2019-01-17 15:51:09,142 [INFO]: #  DATA:'*办事大厅'
+2019-01-17 15:51:09,143 [INFO]: #  REAL:'网上办事大厅'
+2019-01-17 15:51:09,143 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息 is Pass
+2019-01-17 15:51:09,348 [INFO]: #  Run the TestCase: LOGIN_002|打开Relax密码为空
+2019-01-17 15:51:09,349 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001
+2019-01-17 15:51:09,350 [INFO]: #  Run the TestCase: SNIPPET_001|打开Relax<keywords>
+2019-01-17 15:51:09,350 [INFO]: #  Run the Step: 1|INPUT|登录名称
+2019-01-17 15:51:09,958 [INFO]: #  Run the Step: 1|INPUT|登录页面-登录名称 is Pass
+2019-01-17 15:51:10,164 [INFO]: #  Run the Step: 2|INPUT|登录密码
+2019-01-17 15:51:10,757 [INFO]: #  Run the Step: 2|INPUT|登录页面-登录密码 is Pass
+2019-01-17 15:51:10,959 [INFO]: #  Run the Step: 3|CLICK|登录按钮
+2019-01-17 15:51:11,576 [INFO]: #  Run the Step: 3|CLICK|登录页面-登录按钮 is Pass
+2019-01-17 15:51:11,778 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001 is Pass
+2019-01-17 15:51:11,979 [INFO]: #  Run the Step: 2|CHECK|主页错误提示
+2019-01-17 15:51:12,029 [INFO]: #  DATA:'请输入密码!'
+2019-01-17 15:51:12,029 [INFO]: #  REAL:'请输入密码!'
+2019-01-17 15:51:12,030 [INFO]: #  Run the Step: 2|CHECK|登录页面-主页错误提示 is Pass
+2019-01-17 15:51:12,413 [INFO]: #  --- Close th Windows: 'CDwindow-3B36E2E7491E6974A44678E3BB63C723'
+2019-01-17 15:51:12,513 [INFO]: #  --- Quit th Driver: Chrome
+2019-01-17 16:33:59,101 [INFO]: #  Testsuite imported from Excel:
+[
+    {
+        "id": "HOME_001",
+        "title": "打开Relax",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "Relax登录链接",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "Relax登录链接",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "登录页面",
+                "element": "登录界面信息",
+                "data": "*办事大厅",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "登录界面信息",
+                "_data": "*办事大厅",
+                "vdata": "*办事大厅",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "SNIPPET_001",
+        "title": "打开Relax<keywords>",
+        "condition": "SNIPPET",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "输入",
+                "page": "",
+                "element": "登录名称",
+                "data": "<username>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "登录名称",
+                "_data": "<username>",
+                "vdata": "<username>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "",
+                "element": "登录密码",
+                "data": "<password>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "登录密码",
+                "_data": "<password>",
+                "vdata": "<password>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "登录按钮",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "登录按钮",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "SNIPPET_002",
+        "title": "退出登录",
+        "condition": "SNIPPET",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "退出登录",
+                "element": "管理员",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "管理员",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "class#logoutBtn",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "class#logoutBtn",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "LOGIN_001",
+        "title": "打开Relax正确登录",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_001",
+                "data": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_001",
+                "_data": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "vdata": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "Relax主页",
+                "element": "工作台Tab",
+                "data": "*作台",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "工作台Tab",
+                "_data": "*作台",
+                "vdata": "*作台",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_002",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_002",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "LOGIN_002",
+        "title": "打开Relax密码为空",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_001",
+                "data": "username=admin,password=,keywords=密码为空",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_001",
+                "_data": "username=admin,password=,keywords=密码为空",
+                "vdata": "username=admin,password=,keywords=密码为空",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "主页错误提示",
+                "data": "请输入密码!",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "主页错误提示",
+                "_data": "请输入密码!",
+                "vdata": "请输入密码!",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2019-01-17 16:33:59,103 [INFO]: #  From Excel import testsuite success
+2019-01-17 16:34:01,580 [INFO]: #  Run the testcase: HOME_001|打开Relax Skipped, because the flag=N or the condition=snippet
+2019-01-17 16:34:01,580 [INFO]: #  Run the testcase: SNIPPET_001|打开Relax<keywords> Skipped, because the flag=N or the condition=snippet
+2019-01-17 16:34:01,581 [INFO]: #  Run the testcase: SNIPPET_002|退出登录 Skipped, because the flag=N or the condition=snippet
+2019-01-17 16:34:01,581 [INFO]: #  Start running the SETUP testcase...
+2019-01-17 16:34:01,581 [INFO]: #  Run the TestCase: HOME_001|打开Relax
+2019-01-17 16:34:01,581 [INFO]: #  Run the Step: 1|OPEN|Relax登录链接
+2019-01-17 16:34:04,250 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接 is Pass
+2019-01-17 16:34:04,452 [INFO]: #  Run the Step: 2|CHECK|登录界面信息
+2019-01-17 16:34:04,521 [INFO]: #  DATA:'*办事大厅'
+2019-01-17 16:34:04,521 [INFO]: #  REAL:'网上办事大厅'
+2019-01-17 16:34:04,521 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息 is Pass
+2019-01-17 16:34:04,722 [INFO]: #  Run the TestCase: LOGIN_001|打开Relax正确登录
+2019-01-17 16:34:04,722 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001
+2019-01-17 16:34:04,723 [INFO]: #  Run the TestCase: SNIPPET_001|打开Relax<keywords>
+2019-01-17 16:34:04,723 [INFO]: #  Run the Step: 1|INPUT|登录名称
+2019-01-17 16:34:05,406 [INFO]: #  Run the Step: 1|INPUT|登录页面-登录名称 is Pass
+2019-01-17 16:34:05,608 [INFO]: #  Run the Step: 2|INPUT|登录密码
+2019-01-17 16:34:06,247 [INFO]: #  Run the Step: 2|INPUT|登录页面-登录密码 is Pass
+2019-01-17 16:34:06,452 [INFO]: #  Run the Step: 3|CLICK|登录按钮
+2019-01-17 16:34:07,078 [INFO]: #  Run the Step: 3|CLICK|登录页面-登录按钮 is Pass
+2019-01-17 16:34:07,281 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001 is Pass
+2019-01-17 16:34:07,481 [INFO]: #  Run the Step: 2|CHECK|工作台Tab
+2019-01-17 16:34:07,527 [INFO]: #  DATA:'*作台'
+2019-01-17 16:34:07,528 [INFO]: #  REAL:'工作台'
+2019-01-17 16:34:07,528 [INFO]: #  Run the Step: 2|CHECK|Relax主页-工作台Tab is Pass
+2019-01-17 16:34:07,730 [INFO]: #  Run the Step: 3|EXECUTE|SNIPPET_002
+2019-01-17 16:34:07,731 [INFO]: #  Run the TestCase: SNIPPET_002|退出登录
+2019-01-17 16:34:07,732 [INFO]: #  Run the Step: 1|CLICK|管理员
+2019-01-17 16:34:08,382 [INFO]: #  Run the Step: 1|CLICK|退出登录-管理员 is Pass
+2019-01-17 16:34:08,585 [INFO]: #  Run the Step: 2|CLICK|class#logoutBtn
+2019-01-17 16:34:09,258 [INFO]: #  Run the Step: 2|CLICK|通用-class#logoutBtn is Pass
+2019-01-17 16:34:09,459 [INFO]: #  Run the Step: 3|EXECUTE|SNIPPET_002 is Pass
+2019-01-17 16:34:09,660 [INFO]: #  Start running the SETUP testcase...
+2019-01-17 16:34:09,661 [INFO]: #  Run the TestCase: HOME_001|打开Relax
+2019-01-17 16:34:09,661 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接
+2019-01-17 16:34:09,661 [WARNING]: #  Page:通用 element:通用-Relax登录链接 is not exist
+2019-01-17 16:34:10,505 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接 is Pass
+2019-01-17 16:34:10,737 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息
+2019-01-17 16:34:10,737 [WARNING]: #  Page:登录页面 element:登录页面-登录界面信息 is not exist
+2019-01-17 16:34:11,436 [INFO]: #  DATA:'*办事大厅'
+2019-01-17 16:34:11,437 [INFO]: #  REAL:'网上办事大厅'
+2019-01-17 16:34:11,437 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息 is Pass
+2019-01-17 16:34:11,641 [INFO]: #  Run the TestCase: LOGIN_002|打开Relax密码为空
+2019-01-17 16:34:11,642 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001
+2019-01-17 16:34:11,642 [INFO]: #  Run the TestCase: SNIPPET_001|打开Relax<keywords>
+2019-01-17 16:34:11,643 [INFO]: #  Run the Step: 1|INPUT|登录名称
+2019-01-17 16:34:12,258 [INFO]: #  Run the Step: 1|INPUT|登录页面-登录名称 is Pass
+2019-01-17 16:34:12,462 [INFO]: #  Run the Step: 2|INPUT|登录密码
+2019-01-17 16:34:13,041 [INFO]: #  Run the Step: 2|INPUT|登录页面-登录密码 is Pass
+2019-01-17 16:34:13,245 [INFO]: #  Run the Step: 3|CLICK|登录按钮
+2019-01-17 16:34:13,856 [INFO]: #  Run the Step: 3|CLICK|登录页面-登录按钮 is Pass
+2019-01-17 16:34:14,064 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001 is Pass
+2019-01-17 16:34:14,268 [INFO]: #  Run the Step: 2|CHECK|主页错误提示
+2019-01-17 16:34:14,314 [INFO]: #  DATA:'请输入密码!'
+2019-01-17 16:34:14,314 [INFO]: #  REAL:'请输入密码!'
+2019-01-17 16:34:14,314 [INFO]: #  Run the Step: 2|CHECK|登录页面-主页错误提示 is Pass
+2019-01-17 16:34:14,621 [INFO]: #  --- Close th Windows: 'CDwindow-F12347C38B70FAA1C0882964CB157091'
+2019-01-17 16:34:14,760 [INFO]: #  --- Quit th Driver: Chrome
+2019-01-17 18:56:54,573 [INFO]: #  Testsuite imported from Excel:
+[
+    {
+        "id": "HOME_001",
+        "title": "打开Relax",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "Relax登录链接",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "Relax登录链接",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "登录页面",
+                "element": "登录界面信息",
+                "data": "*办事大厅",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "登录界面信息",
+                "_data": "*办事大厅",
+                "vdata": "*办事大厅",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "SNIPPET_001",
+        "title": "打开Relax<keywords>",
+        "condition": "SNIPPET",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "输入",
+                "page": "",
+                "element": "登录名称",
+                "data": "<username>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "登录名称",
+                "_data": "<username>",
+                "vdata": "<username>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "",
+                "element": "登录密码",
+                "data": "<password>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "登录密码",
+                "_data": "<password>",
+                "vdata": "<password>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "登录按钮",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "登录按钮",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "SNIPPET_002",
+        "title": "退出登录",
+        "condition": "SNIPPET",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "退出登录",
+                "element": "管理员",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "管理员",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "class#logoutBtn",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "class#logoutBtn",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "LOGIN_001",
+        "title": "打开Relax正确登录",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_001",
+                "data": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_001",
+                "_data": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "vdata": "username=admin,password=mxdx@relax,keywords=正确登录",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "Relax主页",
+                "element": "工作台Tab",
+                "data": "*作台",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "工作台Tab",
+                "_data": "*作台",
+                "vdata": "*作台",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_002",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_002",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "LOGIN_002",
+        "title": "打开Relax密码为空",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "执行",
+                "page": "用例片段",
+                "element": "SNIPPET_001",
+                "data": "username=admin,password=,keywords=密码为空",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "执行",
+                "_element": "SNIPPET_001",
+                "_data": "username=admin,password=,keywords=密码为空",
+                "vdata": "username=admin,password=,keywords=密码为空",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "主页错误提示",
+                "data": "请输入密码!",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "主页错误提示",
+                "_data": "请输入密码!",
+                "vdata": "请输入密码!",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2019-01-17 18:56:54,575 [INFO]: #  From Excel import testsuite success
+2019-01-17 18:56:57,145 [INFO]: #  Run the testcase: HOME_001|打开Relax Skipped, because the flag=N or the condition=snippet
+2019-01-17 18:56:57,146 [INFO]: #  Run the testcase: SNIPPET_001|打开Relax<keywords> Skipped, because the flag=N or the condition=snippet
+2019-01-17 18:56:57,146 [INFO]: #  Run the testcase: SNIPPET_002|退出登录 Skipped, because the flag=N or the condition=snippet
+2019-01-17 18:56:57,147 [INFO]: #  Start running the SETUP testcase...
+2019-01-17 18:56:57,147 [INFO]: #  Run the TestCase: HOME_001|打开Relax
+2019-01-17 18:56:57,148 [INFO]: #  Run the Step: 1|OPEN|Relax登录链接
+2019-01-17 18:56:58,700 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接 is Pass
+2019-01-17 18:56:58,904 [INFO]: #  Run the Step: 2|CHECK|登录界面信息
+2019-01-17 18:57:00,458 [INFO]: #  DATA:'*办事大厅'
+2019-01-17 18:57:00,459 [INFO]: #  REAL:'网上办事大厅'
+2019-01-17 18:57:00,460 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息 is Pass
+2019-01-17 18:57:00,664 [INFO]: #  Run the TestCase: LOGIN_001|打开Relax正确登录
+2019-01-17 18:57:00,664 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001
+2019-01-17 18:57:00,666 [INFO]: #  Run the TestCase: SNIPPET_001|打开Relax<keywords>
+2019-01-17 18:57:00,666 [INFO]: #  Run the Step: 1|INPUT|登录名称
+2019-01-17 18:57:01,342 [INFO]: #  Run the Step: 1|INPUT|登录页面-登录名称 is Pass
+2019-01-17 18:57:01,546 [INFO]: #  Run the Step: 2|INPUT|登录密码
+2019-01-17 18:57:02,195 [INFO]: #  Run the Step: 2|INPUT|登录页面-登录密码 is Pass
+2019-01-17 18:57:02,401 [INFO]: #  Run the Step: 3|CLICK|登录按钮
+2019-01-17 18:57:03,025 [INFO]: #  Run the Step: 3|CLICK|登录页面-登录按钮 is Pass
+2019-01-17 18:57:03,227 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001 is Pass
+2019-01-17 18:57:03,428 [INFO]: #  Run the Step: 2|CHECK|工作台Tab
+2019-01-17 18:57:03,498 [INFO]: #  DATA:'*作台'
+2019-01-17 18:57:03,498 [INFO]: #  REAL:'工作台'
+2019-01-17 18:57:03,498 [INFO]: #  Run the Step: 2|CHECK|Relax主页-工作台Tab is Pass
+2019-01-17 18:57:03,700 [INFO]: #  Run the Step: 3|EXECUTE|SNIPPET_002
+2019-01-17 18:57:03,700 [INFO]: #  Run the TestCase: SNIPPET_002|退出登录
+2019-01-17 18:57:03,701 [INFO]: #  Run the Step: 1|CLICK|管理员
+2019-01-17 18:57:04,425 [INFO]: #  Run the Step: 1|CLICK|退出登录-管理员 is Pass
+2019-01-17 18:57:04,626 [INFO]: #  Run the Step: 2|CLICK|class#logoutBtn
+2019-01-17 18:57:05,242 [INFO]: #  Run the Step: 2|CLICK|通用-class#logoutBtn is Pass
+2019-01-17 18:57:05,446 [INFO]: #  Run the Step: 3|EXECUTE|SNIPPET_002 is Pass
+2019-01-17 18:57:05,647 [INFO]: #  Start running the SETUP testcase...
+2019-01-17 18:57:05,675 [INFO]: #  Run the TestCase: HOME_001|打开Relax
+2019-01-17 18:57:05,675 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接
+2019-01-17 18:57:05,675 [WARNING]: #  Page:通用 element:通用-Relax登录链接 is not exist
+2019-01-17 18:57:07,066 [INFO]: #  Run the Step: 1|OPEN|通用-Relax登录链接 is Pass
+2019-01-17 18:57:07,273 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息
+2019-01-17 18:57:07,273 [WARNING]: #  Page:登录页面 element:登录页面-登录界面信息 is not exist
+2019-01-17 18:57:07,854 [INFO]: #  DATA:'*办事大厅'
+2019-01-17 18:57:07,854 [INFO]: #  REAL:'网上办事大厅'
+2019-01-17 18:57:07,854 [INFO]: #  Run the Step: 2|CHECK|登录页面-登录界面信息 is Pass
+2019-01-17 18:57:08,056 [INFO]: #  Run the TestCase: LOGIN_002|打开Relax密码为空
+2019-01-17 18:57:08,057 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001
+2019-01-17 18:57:08,058 [INFO]: #  Run the TestCase: SNIPPET_001|打开Relax<keywords>
+2019-01-17 18:57:08,059 [INFO]: #  Run the Step: 1|INPUT|登录名称
+2019-01-17 18:57:08,687 [INFO]: #  Run the Step: 1|INPUT|登录页面-登录名称 is Pass
+2019-01-17 18:57:08,893 [INFO]: #  Run the Step: 2|INPUT|登录密码
+2019-01-17 18:57:09,474 [INFO]: #  Run the Step: 2|INPUT|登录页面-登录密码 is Pass
+2019-01-17 18:57:09,678 [INFO]: #  Run the Step: 3|CLICK|登录按钮
+2019-01-17 18:57:10,286 [INFO]: #  Run the Step: 3|CLICK|登录页面-登录按钮 is Pass
+2019-01-17 18:57:10,487 [INFO]: #  Run the Step: 1|EXECUTE|SNIPPET_001 is Pass
+2019-01-17 18:57:10,688 [INFO]: #  Run the Step: 2|CHECK|主页错误提示
+2019-01-17 18:57:10,734 [INFO]: #  DATA:'请输入密码!'
+2019-01-17 18:57:10,734 [INFO]: #  REAL:'请输入密码!'
+2019-01-17 18:57:10,734 [INFO]: #  Run the Step: 2|CHECK|登录页面-主页错误提示 is Pass
+2019-01-17 18:57:11,039 [INFO]: #  --- Close th Windows: 'CDwindow-754484EB88A9CD69F3D0100519ADADFF'
+2019-01-17 18:57:11,164 [INFO]: #  --- Quit th Driver: Chrome
