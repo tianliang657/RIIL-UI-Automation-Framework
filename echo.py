@@ -1,4 +1,4 @@
-from sweetest import Autotest
+from rill_framework import Autotest
 import sys
 
 
@@ -22,15 +22,15 @@ server_url = ''
 
 
 # 初始化自动化实例
-sweet = Autotest(plan_name, sheet_name, desired_caps, server_url)
+rill = Autotest(plan_name, sheet_name, desired_caps, server_url)
 
 # 按条件执行,支持筛选的属性有：'id', 'title', 'designer', 'priority'
-# sweet.fliter(priority='H')
+# rill.fliter(priority='H')
 
 # 执行自动化测试
-sweet.plan()
+rill.plan()
 
 
 # 如果是集成到 CI/CD，则给出退出码；也可以根据上面的测试结果自己生成退出码
-#sys.exit(sweet.code)
+#sys.exit(rill.code)
  
