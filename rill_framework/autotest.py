@@ -13,7 +13,6 @@ from rill_framework.utility import Excel, get_record, mkdir
 from rill_framework.log import logger
 from rill_framework.junit import JUnit
 from rill_framework.config import _testcase, _elements, _report
-#
 
 
 class Autotest:
